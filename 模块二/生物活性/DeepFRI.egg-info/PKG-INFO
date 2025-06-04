@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DeepFRI
+Version: 0.0.1
+Summary: Implementation of Deep Functional Residue Identification
+Home-page: https://github.com/flatironinstitute/DeepFRI
+Download-URL: https://github.com/flatironinstitute/DeepFRI
+Author: Vladimir Gligorijevic
+Author-email: vgligorijevic@flatironinstitute.org
+License: FlatironInstitute
+License-File: LICENSE
+Requires-Dist: numpy==1.18.5
+Requires-Dist: tensorflow-gpu==2.3.1
+Requires-Dist: networkx==2.4
+Requires-Dist: scikit-learn==0.23.1
+Requires-Dist: biopython==1.76
+Provides-Extra: visualization
+Requires-Dist: matplotlib; extra == "visualization"
+Requires-Dist: seaborn; extra == "visualization"
